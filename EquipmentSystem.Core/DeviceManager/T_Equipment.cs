@@ -37,5 +37,13 @@ namespace EquipmentSystem.DeviceManager
         /// </summary>
         public virtual T_EquipmentType T_EquipmentType { get; set; }
 
+        public ICollection<T_EquipmentMaintenance> T_EquipmentMaintenances { get; set; }
+
+        public ICollection<T_EquipmentScrapping> T_EquipmentScrappings { get; set; }
+
+        public ICollection<T_EquipmentLend> T_EquipmentLends { get; set; }
+
+        public ICollection<T_EquipmentReturn> T_EquipmentReturns { get; set; }
+
     }
 }

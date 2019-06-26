@@ -16,6 +16,14 @@ namespace EquipmentSystem.EntityFramework
 
         public IDbSet<T_EquipmentType> T_EquipmentType { get; set; }
 
+        public IDbSet<T_EquipmentMaintenance> T_EquipmentMaintenance { get; set; }
+
+        public IDbSet<T_EquipmentScrapping> T_EquipmentScrapping { get; set; }
+
+        public IDbSet<T_EquipmentLend> T_EquipmentLend { get; set; }
+
+        public IDbSet<T_EquipmentReturn> T_EquipmentReturn { get; set; }
+
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not

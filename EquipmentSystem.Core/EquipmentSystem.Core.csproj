@@ -200,7 +200,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeviceManager\T_Equipment.cs" />
+    <Compile Include="DeviceManager\T_EquipmentLend.cs" />
     <Compile Include="DeviceManager\T_EquipmentMaintenance.cs" />
+    <Compile Include="DeviceManager\T_EquipmentReturn.cs" />
+    <Compile Include="DeviceManager\T_EquipmentScrapping.cs" />
     <Compile Include="DeviceManager\T_EquipmentType.cs" />
     <Compile Include="EquipmentConsts.cs" />
     <Compile Include="EquipmentSystemConsts.cs" />

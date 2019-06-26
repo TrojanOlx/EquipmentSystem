@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,32 +7,19 @@ using Abp.Domain.Entities.Auditing;
 
 namespace EquipmentSystem.DeviceManager
 {
-    public class T_EquipmentMaintenance : FullAuditedEntity
+    public class T_EquipmentScrapping:FullAuditedEntity
     {
         /// <summary>
         /// 设备ID
         /// </summary>
         public int T_EquipmentID { get; set; }
         /// <summary>
-        /// 维修时间
+        /// 报废时间
         /// </summary>
-        [Required]
-        public DateTime MaintenanceDateTime { get; set; }
+        public DateTime ScrappingdDateTime { get; set; }
         /// <summary>
-        /// 维修人员
+        /// 原因
         /// </summary>
-        [Required]
-        [MaxLength(64)]
-        public string MaintenancePersonnel { get; set; }
-        /// <summary>
-        /// 维修状态
-        /// </summary>
-        [Required]
-        public int MaintenanceStatus { get; set; }
-        /// <summary>
-        /// 维修原因
-        /// </summary>
-        [Required]
         public string Cause { get; set; }
         /// <summary>
         /// 图片

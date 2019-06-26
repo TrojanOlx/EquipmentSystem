@@ -240,6 +240,10 @@
     <Compile Include="Migrations\201906260803234_equipmentTable.Designer.cs">
       <DependentUpon>201906260803234_equipmentTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906260939575_equipmentTable1.cs" />
+    <Compile Include="Migrations\201906260939575_equipmentTable1.Designer.cs">
+      <DependentUpon>201906260939575_equipmentTable1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
@@ -276,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906260803234_equipmentTable.resx">
       <DependentUpon>201906260803234_equipmentTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906260939575_equipmentTable1.resx">
+      <DependentUpon>201906260939575_equipmentTable1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

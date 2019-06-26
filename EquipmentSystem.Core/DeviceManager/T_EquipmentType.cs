@@ -11,6 +11,9 @@ namespace EquipmentSystem.DeviceManager
 {
     public class T_EquipmentType : CreationAuditedEntity
     {
+        /// <summary>
+        /// 类型名称
+        /// </summary>
         [Required]
         [MaxLength(16)]
         public string TypeName { get; set; }
