@@ -11,11 +11,11 @@ namespace EquipmentSystem.DeviceManager
     public class T_Equipment : FullAuditedEntity
     {
         [Required]
-        [MaxLength(EquipmentConsts.MaxNoLength)]
+        [MaxLength(64)]
         public string EquipmentNumber { get; set; }
 
         [Required]
-        [MaxLength(EquipmentConsts.MaxNoLength)]
+        [MaxLength(64)]
         public string EquipmentName { get; set; }
 
         [Required]

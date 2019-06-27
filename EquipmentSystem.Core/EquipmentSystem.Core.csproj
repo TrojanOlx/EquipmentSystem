@@ -199,13 +199,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeviceManager\EquipmentService\IT_EquipmentManager.cs" />
+    <Compile Include="DeviceManager\EquipmentService\T_EquipmentManager.cs" />
     <Compile Include="DeviceManager\T_Equipment.cs" />
     <Compile Include="DeviceManager\T_EquipmentLend.cs" />
     <Compile Include="DeviceManager\T_EquipmentMaintenance.cs" />
     <Compile Include="DeviceManager\T_EquipmentReturn.cs" />
     <Compile Include="DeviceManager\T_EquipmentScrapping.cs" />
     <Compile Include="DeviceManager\T_EquipmentType.cs" />
-    <Compile Include="EquipmentConsts.cs" />
     <Compile Include="EquipmentSystemConsts.cs" />
     <Compile Include="EquipmentSystemCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />
@@ -219,6 +220,7 @@
     <Compile Include="Configuration\AppSettingNames.cs" />
     <Compile Include="Configuration\AppSettingProvider.cs" />
     <Compile Include="Editions\EditionManager.cs" />
+    <Compile Include="EquipmentSystemDomainServiceBase.cs" />
     <Compile Include="Features\FeatureValueStore.cs" />
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
@@ -264,7 +266,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Localization\Source\EquipmentSystem-vi.xml" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
