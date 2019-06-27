@@ -12,6 +12,6 @@ namespace EquipmentSystem.DeviceManager.EquipmentService
         /// <summary>
         /// 初始化
         /// </summary>
-        void InitT_Equipment();
+        void Init();
     }
 }

@@ -19,7 +19,7 @@ namespace EquipmentSystem.DeviceManager.EquipmentService
         /// <summary>
         /// 初始化
         /// </summary>
-        public void InitT_Equipment()
+        public void Init()
         {
             throw new NotImplementedException();
         }

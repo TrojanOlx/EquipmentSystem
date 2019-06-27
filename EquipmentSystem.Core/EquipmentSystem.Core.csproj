@@ -201,6 +201,7 @@
   <ItemGroup>
     <Compile Include="DeviceManager\EquipmentService\IT_EquipmentManager.cs" />
     <Compile Include="DeviceManager\EquipmentService\T_EquipmentManager.cs" />
+    <Compile Include="DeviceManager\EquipmentStatus.cs" />
     <Compile Include="DeviceManager\T_Equipment.cs" />
     <Compile Include="DeviceManager\T_EquipmentLend.cs" />
     <Compile Include="DeviceManager\T_EquipmentMaintenance.cs" />
