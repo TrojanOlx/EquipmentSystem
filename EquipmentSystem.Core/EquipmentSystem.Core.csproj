@@ -199,6 +199,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeviceManager\Authorization\EquipmentAppPermissions.cs" />
+    <Compile Include="DeviceManager\Authorization\EquipmentAppAuthorizationProvider.cs" />
     <Compile Include="DeviceManager\EquipmentService\IT_EquipmentManager.cs" />
     <Compile Include="DeviceManager\EquipmentService\T_EquipmentManager.cs" />
     <Compile Include="DeviceManager\EquipmentStatus.cs" />

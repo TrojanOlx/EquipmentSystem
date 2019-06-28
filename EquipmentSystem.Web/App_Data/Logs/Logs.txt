@@ -1109,3 +1109,985 @@ DEBUG 2019-06-27 17:37:54,013 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2019-06-27 17:37:55,111 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9b48ee94-bc07-4a43-9f6a-6af124fb5413","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-27T17:37:55.1081235+08:00","Properties":{}}
 DEBUG 2019-06-27 17:37:55,126 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9b48ee94-bc07-4a43-9f6a-6af124fb5413
 DEBUG 2019-06-27 17:40:02,470 [69   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9b48ee94-bc07-4a43-9f6a-6af124fb5413
+DEBUG 2019-06-28 16:34:36,140 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 16:34:36,150 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 16:34:36,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:36,161 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 16:34:36,364 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:34:36,364 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:34:36,364 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:34:36,364 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:34:36,638 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:34:38,323 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 16:34:38,396 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 16:34:38,434 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 16:34:38,459 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 16:34:38,484 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 16:34:38,545 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 16:34:38,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 16:34:38,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 16:34:38,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 16:34:38,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 16:34:38,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 16:34:38,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 16:34:38,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 16:34:38,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 16:34:38,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 16:34:38,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 16:34:38,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 16:34:38,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 16:34:38,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 16:34:38,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 16:34:38,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 16:34:40,061 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 16:34:40,062 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 16:34:40,062 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 16:34:40,063 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 16:34:40,064 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 16:34:40,065 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 16:34:40,065 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+DEBUG 2019-06-28 16:34:49,786 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c98ae9cc-354a-4928-924c-c5e21deb78fe","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:34:49.7792803+08:00","Properties":{}}
+DEBUG 2019-06-28 16:34:49,825 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c98ae9cc-354a-4928-924c-c5e21deb78fe
+DEBUG 2019-06-28 16:35:05,226 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c98ae9cc-354a-4928-924c-c5e21deb78fe
+DEBUG 2019-06-28 16:35:05,862 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"618ba8a0-299f-43ed-9f4e-ab9c7244ddb8","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:35:05.8598107+08:00","Properties":{}}
+DEBUG 2019-06-28 16:35:05,879 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 618ba8a0-299f-43ed-9f4e-ab9c7244ddb8
+WARN  2019-06-28 16:35:08,378 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:35:08,434 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 618ba8a0-299f-43ed-9f4e-ab9c7244ddb8
+DEBUG 2019-06-28 16:35:09,269 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e908d03f-0667-411d-8f1f-106c574178e8","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:35:09.267295+08:00","Properties":{}}
+DEBUG 2019-06-28 16:35:09,274 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e908d03f-0667-411d-8f1f-106c574178e8
+DEBUG 2019-06-28 16:35:15,109 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e908d03f-0667-411d-8f1f-106c574178e8
+DEBUG 2019-06-28 16:35:15,766 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e1f8c06b-5d8b-40ac-b9ee-fa9d4cdf5e50","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:35:15.7647462+08:00","Properties":{}}
+DEBUG 2019-06-28 16:35:15,771 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e1f8c06b-5d8b-40ac-b9ee-fa9d4cdf5e50
+WARN  2019-06-28 16:35:19,621 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditTenant' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:35:23,591 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e1f8c06b-5d8b-40ac-b9ee-fa9d4cdf5e50
+DEBUG 2019-06-28 16:35:24,276 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8fe00b34-e2dd-4322-871b-e34129ec1589","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:35:24.2734618+08:00","Properties":{}}
+DEBUG 2019-06-28 16:35:24,280 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8fe00b34-e2dd-4322-871b-e34129ec1589
+DEBUG 2019-06-28 16:35:25,117 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8fe00b34-e2dd-4322-871b-e34129ec1589
+DEBUG 2019-06-28 16:35:25,986 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"95955640-7914-4788-85cb-f5650525ba1a","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:35:25.9845471+08:00","Properties":{}}
+DEBUG 2019-06-28 16:35:25,993 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 95955640-7914-4788-85cb-f5650525ba1a
+DEBUG 2019-06-28 16:35:33,504 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 95955640-7914-4788-85cb-f5650525ba1a
+DEBUG 2019-06-28 16:35:34,410 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2fb3dea5-1389-4f62-960d-757a0e407a37","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:35:34.4078085+08:00","Properties":{}}
+DEBUG 2019-06-28 16:35:34,414 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2fb3dea5-1389-4f62-960d-757a0e407a37
+DEBUG 2019-06-28 16:45:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 16:45:55,440 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 16:45:55,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:55,451 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 16:45:55,653 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:45:55,653 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:45:55,653 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:45:55,653 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:45:55,933 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:45:57,675 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 16:45:57,745 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 16:45:57,786 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 16:45:57,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 16:45:57,838 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 16:45:57,907 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 16:45:57,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 16:45:57,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 16:45:57,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 16:45:57,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 16:45:57,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 16:45:57,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 16:45:59,473 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 16:45:59,475 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 16:45:59,476 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 16:45:59,476 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 16:45:59,477 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 16:45:59,477 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 16:45:59,478 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+DEBUG 2019-06-28 16:46:08,205 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dd536ecf-f629-430b-beea-33c339fbd1ff","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:46:08.196433+08:00","Properties":{}}
+DEBUG 2019-06-28 16:46:08,237 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dd536ecf-f629-430b-beea-33c339fbd1ff
+WARN  2019-06-28 16:46:17,431 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:46:17,872 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dd536ecf-f629-430b-beea-33c339fbd1ff
+DEBUG 2019-06-28 16:46:18,915 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"819482b4-6364-484b-887e-c658f03ecb42","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:46:18.9129724+08:00","Properties":{}}
+DEBUG 2019-06-28 16:46:18,919 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 819482b4-6364-484b-887e-c658f03ecb42
+WARN  2019-06-28 16:46:21,652 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:46:30,801 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 819482b4-6364-484b-887e-c658f03ecb42
+DEBUG 2019-06-28 16:46:32,044 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2174710d-0bc1-405d-9435-63aa139bb0e3","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:46:32.0412238+08:00","Properties":{}}
+DEBUG 2019-06-28 16:46:32,048 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2174710d-0bc1-405d-9435-63aa139bb0e3
+WARN  2019-06-28 16:46:34,309 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:46:34,368 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2174710d-0bc1-405d-9435-63aa139bb0e3
+DEBUG 2019-06-28 16:46:35,325 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ecdbbbf3-7eaa-4fbc-b478-453e27501c85","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:46:35.322104+08:00","Properties":{}}
+DEBUG 2019-06-28 16:46:35,330 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ecdbbbf3-7eaa-4fbc-b478-453e27501c85
+WARN  2019-06-28 16:47:18,053 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:47:18,113 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ecdbbbf3-7eaa-4fbc-b478-453e27501c85
+DEBUG 2019-06-28 16:47:19,073 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"23a4dea4-2baf-487e-a499-496c41ce2aa7","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:47:19.0705344+08:00","Properties":{}}
+DEBUG 2019-06-28 16:47:19,077 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 23a4dea4-2baf-487e-a499-496c41ce2aa7
+WARN  2019-06-28 16:47:31,894 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:47:31,950 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 23a4dea4-2baf-487e-a499-496c41ce2aa7
+DEBUG 2019-06-28 16:47:33,051 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ce66854b-7642-4230-9917-929a2e491d31","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:47:33.0473737+08:00","Properties":{}}
+DEBUG 2019-06-28 16:47:33,055 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ce66854b-7642-4230-9917-929a2e491d31
+WARN  2019-06-28 16:47:34,275 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:47:34,379 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ce66854b-7642-4230-9917-929a2e491d31
+DEBUG 2019-06-28 16:47:35,445 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"091a51ec-4f85-42c5-8d76-d6213994199d","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:47:35.4422627+08:00","Properties":{}}
+DEBUG 2019-06-28 16:47:35,449 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 091a51ec-4f85-42c5-8d76-d6213994199d
+WARN  2019-06-28 16:47:38,473 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:49:29,350 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 091a51ec-4f85-42c5-8d76-d6213994199d
+DEBUG 2019-06-28 16:50:44,305 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 16:50:44,316 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 16:50:44,321 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:44,327 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 16:50:44,531 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:50:44,531 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:50:44,531 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:50:44,531 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:50:44,808 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:50:46,526 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 16:50:46,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 16:50:46,636 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 16:50:46,661 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 16:50:46,686 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 16:50:46,754 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 16:50:46,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 16:50:46,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 16:50:46,806 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 16:50:46,806 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 16:50:46,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 16:50:46,808 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 16:50:46,808 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 16:50:48,301 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 16:50:48,302 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 16:50:48,303 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 16:50:48,303 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 16:50:48,304 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 16:50:48,305 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 16:50:48,306 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+WARN  2019-06-28 16:50:54,192 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:50:56,574 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:50:57,212 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cb3946db-856d-46fe-8872-fc10d423b96c","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:50:57.2050338+08:00","Properties":{}}
+DEBUG 2019-06-28 16:50:57,248 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cb3946db-856d-46fe-8872-fc10d423b96c
+WARN  2019-06-28 16:50:59,907 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:50:59,912 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: [Equipment]
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: [Equipment]
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2019-06-28 16:50:59,936 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cb3946db-856d-46fe-8872-fc10d423b96c
+WARN  2019-06-28 16:51:07,773 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:08,503 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:08,872 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"12a4b421-5331-47e7-8de1-40b52ac65351","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:51:08.8701178+08:00","Properties":{}}
+DEBUG 2019-06-28 16:51:08,879 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 12a4b421-5331-47e7-8de1-40b52ac65351
+WARN  2019-06-28 16:51:10,348 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:10,783 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:10,811 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 12a4b421-5331-47e7-8de1-40b52ac65351
+WARN  2019-06-28 16:51:11,583 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:11,727 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"49873cbd-1d5a-4d69-9f54-c875f71cb670","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:51:11.7241097+08:00","Properties":{}}
+DEBUG 2019-06-28 16:51:11,731 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 49873cbd-1d5a-4d69-9f54-c875f71cb670
+WARN  2019-06-28 16:51:15,094 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:22,632 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:22,700 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:22,725 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 49873cbd-1d5a-4d69-9f54-c875f71cb670
+WARN  2019-06-28 16:51:23,367 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:23,471 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6b163efd-c65c-44cd-85c5-f0eaccc139c9","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:51:23.4680997+08:00","Properties":{}}
+DEBUG 2019-06-28 16:51:23,474 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6b163efd-c65c-44cd-85c5-f0eaccc139c9
+WARN  2019-06-28 16:51:25,572 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:30,743 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:30,774 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:30,802 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6b163efd-c65c-44cd-85c5-f0eaccc139c9
+WARN  2019-06-28 16:51:31,410 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:31,520 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"61dcfffd-fec8-49f4-83b6-6081bb43eb41","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:51:31.5179013+08:00","Properties":{}}
+DEBUG 2019-06-28 16:51:31,525 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 61dcfffd-fec8-49f4-83b6-6081bb43eb41
+WARN  2019-06-28 16:51:33,828 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:33,853 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 61dcfffd-fec8-49f4-83b6-6081bb43eb41
+WARN  2019-06-28 16:51:34,510 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:34,665 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"22d1ad78-87dc-43e9-b056-28817ee59d56","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:51:34.6624894+08:00","Properties":{}}
+DEBUG 2019-06-28 16:51:34,669 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 22d1ad78-87dc-43e9-b056-28817ee59d56
+WARN  2019-06-28 16:51:38,088 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'EditTenant' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:42,545 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:42,613 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:42,638 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 22d1ad78-87dc-43e9-b056-28817ee59d56
+WARN  2019-06-28 16:51:43,236 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:43,438 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"61690841-66ac-48cb-b237-26d8f55d4c82","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:51:43.4350463+08:00","Properties":{}}
+DEBUG 2019-06-28 16:51:43,442 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 61690841-66ac-48cb-b237-26d8f55d4c82
+WARN  2019-06-28 16:51:59,436 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:51:59,522 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:51:59,562 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 61690841-66ac-48cb-b237-26d8f55d4c82
+WARN  2019-06-28 16:52:00,188 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:00,342 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"986e97d1-3682-4c37-bfb0-4d618f9d3bd4","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:52:00.3395198+08:00","Properties":{}}
+DEBUG 2019-06-28 16:52:00,347 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 986e97d1-3682-4c37-bfb0-4d618f9d3bd4
+WARN  2019-06-28 16:52:02,902 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:52:02,932 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:02,956 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 986e97d1-3682-4c37-bfb0-4d618f9d3bd4
+WARN  2019-06-28 16:52:03,515 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:03,626 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d9b82720-cb41-4efa-a172-743852ef8229","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:52:03.6234189+08:00","Properties":{}}
+DEBUG 2019-06-28 16:52:03,630 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d9b82720-cb41-4efa-a172-743852ef8229
+WARN  2019-06-28 16:52:11,635 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:52:11,664 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:11,697 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d9b82720-cb41-4efa-a172-743852ef8229
+WARN  2019-06-28 16:52:12,186 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:12,389 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9f9bb5ca-df8f-493f-ab35-21ed6c82eb70","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:52:12.3867228+08:00","Properties":{}}
+DEBUG 2019-06-28 16:52:12,394 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9f9bb5ca-df8f-493f-ab35-21ed6c82eb70
+WARN  2019-06-28 16:52:13,859 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:52:13,933 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:13,958 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9f9bb5ca-df8f-493f-ab35-21ed6c82eb70
+WARN  2019-06-28 16:52:14,536 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:14,640 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1c9c68b1-db0f-4ca3-8b60-6676878a8516","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:52:14.6378832+08:00","Properties":{}}
+DEBUG 2019-06-28 16:52:14,647 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1c9c68b1-db0f-4ca3-8b60-6676878a8516
+WARN  2019-06-28 16:52:17,673 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:52:21,161 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:52:21,242 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:21,266 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1c9c68b1-db0f-4ca3-8b60-6676878a8516
+WARN  2019-06-28 16:52:21,915 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:22,081 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9c3ce6c0-66c6-47c7-8afe-2ab86eedb176","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:52:22.0780622+08:00","Properties":{}}
+DEBUG 2019-06-28 16:52:22,085 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9c3ce6c0-66c6-47c7-8afe-2ab86eedb176
+WARN  2019-06-28 16:52:29,705 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:29,730 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9c3ce6c0-66c6-47c7-8afe-2ab86eedb176
+WARN  2019-06-28 16:52:30,588 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:52:30,719 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ef0ec56a-55e0-4afe-acfc-66ded4965ad0","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:52:30.7160706+08:00","Properties":{}}
+DEBUG 2019-06-28 16:52:30,725 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ef0ec56a-55e0-4afe-acfc-66ded4965ad0
+WARN  2019-06-28 16:56:40,069 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:56:40,095 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ef0ec56a-55e0-4afe-acfc-66ded4965ad0
+WARN  2019-06-28 16:56:40,649 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:56:40,763 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"232ed40d-642f-483a-98c8-e8746a51ca6e","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:56:40.7603735+08:00","Properties":{}}
+DEBUG 2019-06-28 16:56:40,769 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 232ed40d-642f-483a-98c8-e8746a51ca6e
+WARN  2019-06-28 16:56:42,536 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:56:42,565 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:56:42,590 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 232ed40d-642f-483a-98c8-e8746a51ca6e
+WARN  2019-06-28 16:56:43,191 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:56:43,361 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ff92812a-fb01-40b0-bc78-aa999651fa79","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:56:43.3597502+08:00","Properties":{}}
+DEBUG 2019-06-28 16:56:43,380 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ff92812a-fb01-40b0-bc78-aa999651fa79
+WARN  2019-06-28 16:56:58,034 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:56:58,101 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:56:58,125 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ff92812a-fb01-40b0-bc78-aa999651fa79
+WARN  2019-06-28 16:56:58,630 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:56:58,809 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"10760853-d0bc-41fb-82ea-e0f0384ac556","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:56:58.8067772+08:00","Properties":{}}
+DEBUG 2019-06-28 16:56:58,813 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 10760853-d0bc-41fb-82ea-e0f0384ac556
+WARN  2019-06-28 16:57:01,434 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:57:10,815 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:57:38,400 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:57:38,424 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 10760853-d0bc-41fb-82ea-e0f0384ac556
+WARN  2019-06-28 16:57:38,916 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:57:39,127 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"26e9f593-3bb7-4925-8f3a-485452f3094b","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:57:39.1251345+08:00","Properties":{}}
+DEBUG 2019-06-28 16:57:39,131 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 26e9f593-3bb7-4925-8f3a-485452f3094b
+DEBUG 2019-06-28 16:58:08,701 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 16:58:08,712 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 16:58:08,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:08,723 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 16:58:08,926 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:58:08,926 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:58:08,926 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:58:08,926 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 16:58:09,200 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 16:58:10,891 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 16:58:10,964 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 16:58:11,001 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 16:58:11,026 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 16:58:11,051 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 16:58:11,114 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 16:58:11,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 16:58:11,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 16:58:11,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 16:58:11,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 16:58:11,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 16:58:11,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 16:58:11,168 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 16:58:11,168 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 16:58:12,632 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 16:58:12,633 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 16:58:12,634 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 16:58:12,635 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 16:58:12,635 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 16:58:12,636 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 16:58:12,637 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+WARN  2019-06-28 16:58:18,850 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:58:20,550 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:58:21,036 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"254951e3-bc0a-452b-ac81-92d8613e09ea","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:58:21.0273931+08:00","Properties":{}}
+DEBUG 2019-06-28 16:58:21,072 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 254951e3-bc0a-452b-ac81-92d8613e09ea
+WARN  2019-06-28 16:58:48,117 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:58:48,551 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:58:48,584 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 254951e3-bc0a-452b-ac81-92d8613e09ea
+WARN  2019-06-28 16:58:49,013 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:58:49,154 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8b947907-98f9-42c2-9c3e-a29b438b598e","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:58:49.152299+08:00","Properties":{}}
+DEBUG 2019-06-28 16:58:49,164 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8b947907-98f9-42c2-9c3e-a29b438b598e
+WARN  2019-06-28 16:58:53,799 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:58:53,892 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8b947907-98f9-42c2-9c3e-a29b438b598e
+DEBUG 2019-06-28 16:58:54,544 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"92188404-7690-4006-b52c-70c19718bf81","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:58:54.541929+08:00","Properties":{}}
+DEBUG 2019-06-28 16:58:54,552 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 92188404-7690-4006-b52c-70c19718bf81
+DEBUG 2019-06-28 16:58:56,582 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 92188404-7690-4006-b52c-70c19718bf81
+DEBUG 2019-06-28 16:58:57,235 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e367d40a-06c0-4fbf-af94-795c8cf8a9be","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:58:57.2320988+08:00","Properties":{}}
+DEBUG 2019-06-28 16:58:57,239 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e367d40a-06c0-4fbf-af94-795c8cf8a9be
+WARN  2019-06-28 16:58:59,835 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:58:59,891 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e367d40a-06c0-4fbf-af94-795c8cf8a9be
+DEBUG 2019-06-28 16:59:00,417 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"272bcdb4-6f0f-4be2-a8c2-0649e984f595","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:59:00.4149143+08:00","Properties":{}}
+DEBUG 2019-06-28 16:59:00,422 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 272bcdb4-6f0f-4be2-a8c2-0649e984f595
+WARN  2019-06-28 16:59:05,649 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:59:05,702 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 272bcdb4-6f0f-4be2-a8c2-0649e984f595
+DEBUG 2019-06-28 16:59:06,263 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b191ad47-9619-48db-9f28-97af2939ac55","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:59:06.2614279+08:00","Properties":{}}
+DEBUG 2019-06-28 16:59:06,269 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b191ad47-9619-48db-9f28-97af2939ac55
+WARN  2019-06-28 16:59:07,668 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:59:07,758 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b191ad47-9619-48db-9f28-97af2939ac55
+DEBUG 2019-06-28 16:59:08,324 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2ffa4c28-8e8a-4c6a-bc9e-98e59ca23609","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:59:08.3227204+08:00","Properties":{}}
+DEBUG 2019-06-28 16:59:08,331 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2ffa4c28-8e8a-4c6a-bc9e-98e59ca23609
+WARN  2019-06-28 16:59:11,219 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 16:59:18,360 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:59:18,463 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2ffa4c28-8e8a-4c6a-bc9e-98e59ca23609
+DEBUG 2019-06-28 16:59:19,031 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"51868cb8-fd5b-41f5-bdf7-e80d6bb09894","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:59:19.0282125+08:00","Properties":{}}
+DEBUG 2019-06-28 16:59:19,035 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 51868cb8-fd5b-41f5-bdf7-e80d6bb09894
+WARN  2019-06-28 16:59:55,995 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:59:56,105 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 51868cb8-fd5b-41f5-bdf7-e80d6bb09894
+DEBUG 2019-06-28 16:59:56,724 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4fd7459d-0034-4d17-bd10-8bf48b7b06b4","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T16:59:56.7217877+08:00","Properties":{}}
+DEBUG 2019-06-28 16:59:56,730 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4fd7459d-0034-4d17-bd10-8bf48b7b06b4
+WARN  2019-06-28 16:59:59,630 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 16:59:59,686 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4fd7459d-0034-4d17-bd10-8bf48b7b06b4
+DEBUG 2019-06-28 17:00:00,343 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5a359c9f-294c-4a1c-bb95-41c131161f05","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:00.3401737+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:00,349 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5a359c9f-294c-4a1c-bb95-41c131161f05
+WARN  2019-06-28 17:00:06,795 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:00:06,842 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:06,871 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5a359c9f-294c-4a1c-bb95-41c131161f05
+WARN  2019-06-28 17:00:07,331 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:07,409 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e3653ab0-d732-4e56-81fa-b50dae90da64","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:07.4069809+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:07,413 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e3653ab0-d732-4e56-81fa-b50dae90da64
+WARN  2019-06-28 17:00:09,628 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:09,652 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e3653ab0-d732-4e56-81fa-b50dae90da64
+WARN  2019-06-28 17:00:10,057 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:10,129 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"94ed2e73-13aa-4cac-bcd4-74970d455188","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:10.1262701+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:10,133 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 94ed2e73-13aa-4cac-bcd4-74970d455188
+WARN  2019-06-28 17:00:18,181 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:00:18,250 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:18,277 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 94ed2e73-13aa-4cac-bcd4-74970d455188
+WARN  2019-06-28 17:00:18,737 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:18,806 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"71cf00e8-15b8-4d31-9fa2-9a903fe543f1","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:18.8032181+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:18,810 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 71cf00e8-15b8-4d31-9fa2-9a903fe543f1
+WARN  2019-06-28 17:00:21,664 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:00:27,041 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:00:27,126 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:27,158 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 71cf00e8-15b8-4d31-9fa2-9a903fe543f1
+WARN  2019-06-28 17:00:27,752 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:27,821 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"63ed5146-87b6-4f94-9b70-84f7608ff0da","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:27.8189551+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:27,826 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 63ed5146-87b6-4f94-9b70-84f7608ff0da
+WARN  2019-06-28 17:00:29,538 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:29,566 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 63ed5146-87b6-4f94-9b70-84f7608ff0da
+WARN  2019-06-28 17:00:30,042 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:30,103 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5e7e2a38-e54b-41e8-98ce-b398e89404e2","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:30.1017651+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:30,110 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5e7e2a38-e54b-41e8-98ce-b398e89404e2
+WARN  2019-06-28 17:00:32,673 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:32,697 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5e7e2a38-e54b-41e8-98ce-b398e89404e2
+WARN  2019-06-28 17:00:33,115 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:33,174 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a089c8a0-70b1-4899-a3a6-e58d36c34bcc","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:33.1720774+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:33,179 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a089c8a0-70b1-4899-a3a6-e58d36c34bcc
+WARN  2019-06-28 17:00:36,808 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:00:36,840 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:36,865 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a089c8a0-70b1-4899-a3a6-e58d36c34bcc
+WARN  2019-06-28 17:00:37,366 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:37,441 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c1a0b4e0-ddc2-4645-be39-6947a48a45eb","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:37.439558+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:37,445 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c1a0b4e0-ddc2-4645-be39-6947a48a45eb
+WARN  2019-06-28 17:00:56,347 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:00:56,380 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:56,413 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c1a0b4e0-ddc2-4645-be39-6947a48a45eb
+WARN  2019-06-28 17:00:56,806 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:00:56,944 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2176840e-546b-4d89-8316-e674c2172d6c","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:00:56.9412912+08:00","Properties":{}}
+DEBUG 2019-06-28 17:00:56,948 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2176840e-546b-4d89-8316-e674c2172d6c
+WARN  2019-06-28 17:01:08,522 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:01:09,217 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:01:09,401 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3dbceb85-bcbd-4b80-aa9b-0536ee064fbc","IpAddress":"192.168.20.128","TenantId":null,"UserId":4,"ConnectTime":"2019-06-28T17:01:09.3980838+08:00","Properties":{}}
+DEBUG 2019-06-28 17:01:09,406 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3dbceb85-bcbd-4b80-aa9b-0536ee064fbc
+WARN  2019-06-28 17:01:11,187 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:01:11,209 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3dbceb85-bcbd-4b80-aa9b-0536ee064fbc
+WARN  2019-06-28 17:01:11,655 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:01:11,778 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"edfceb3d-cd6d-446f-8a3c-0e1e38d1bd74","IpAddress":"192.168.20.128","TenantId":null,"UserId":4,"ConnectTime":"2019-06-28T17:01:11.7764487+08:00","Properties":{}}
+DEBUG 2019-06-28 17:01:11,783 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: edfceb3d-cd6d-446f-8a3c-0e1e38d1bd74
+WARN  2019-06-28 17:01:34,136 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:01:34,542 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:01:34,827 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"af40857c-be01-4105-8859-3b206d8bb72c","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:01:34.8254752+08:00","Properties":{}}
+DEBUG 2019-06-28 17:01:34,832 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: af40857c-be01-4105-8859-3b206d8bb72c
+DEBUG 2019-06-28 17:01:36,067 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2176840e-546b-4d89-8316-e674c2172d6c
+WARN  2019-06-28 17:01:46,580 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:01:46,613 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: af40857c-be01-4105-8859-3b206d8bb72c
+WARN  2019-06-28 17:01:47,158 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:01:47,397 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"002a4200-e182-4729-bcad-4990655807ff","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:01:47.3945213+08:00","Properties":{}}
+DEBUG 2019-06-28 17:01:47,402 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 002a4200-e182-4729-bcad-4990655807ff
+DEBUG 2019-06-28 17:40:01,535 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 17:40:01,547 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 17:40:01,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:01,558 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 17:40:01,760 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:40:01,761 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:40:01,761 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:40:01,761 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:40:02,034 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:40:03,767 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 17:40:03,828 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 17:40:03,866 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 17:40:03,892 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 17:40:03,917 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 17:40:03,987 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 17:40:04,034 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 17:40:04,034 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 17:40:04,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 17:40:04,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 17:40:04,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 17:40:04,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 17:40:04,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 17:40:04,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 17:40:04,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 17:40:04,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 17:40:04,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 17:40:04,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 17:40:04,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 17:40:04,041 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 17:40:04,041 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 17:40:05,561 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 17:40:05,561 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 17:40:05,562 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 17:40:05,563 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 17:40:05,564 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 17:40:05,564 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 17:40:05,565 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+WARN  2019-06-28 17:40:08,819 [11   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2019-06-28 17:40:15,953 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 17:40:17,223 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:40:17,647 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f2064f8c-e379-4292-a1dd-a4191202ff94","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:40:17.6416671+08:00","Properties":{}}
+DEBUG 2019-06-28 17:40:17,679 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f2064f8c-e379-4292-a1dd-a4191202ff94
+WARN  2019-06-28 17:40:20,435 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:40:20,473 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f2064f8c-e379-4292-a1dd-a4191202ff94
+WARN  2019-06-28 17:40:21,004 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Equipment' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:40:21,127 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bc461f14-32ab-4dc2-a88c-c127782e5a23","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:40:21.1242508+08:00","Properties":{}}
+DEBUG 2019-06-28 17:40:21,134 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bc461f14-32ab-4dc2-a88c-c127782e5a23
+DEBUG 2019-06-28 17:40:49,544 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: bc461f14-32ab-4dc2-a88c-c127782e5a23
+DEBUG 2019-06-28 17:40:50,044 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5a9d2c67-2bca-41bb-9f24-11d67e426b17","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:40:50.0415575+08:00","Properties":{}}
+DEBUG 2019-06-28 17:40:50,053 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5a9d2c67-2bca-41bb-9f24-11d67e426b17
+DEBUG 2019-06-28 17:40:51,935 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5a9d2c67-2bca-41bb-9f24-11d67e426b17
+DEBUG 2019-06-28 17:40:52,544 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"56609a5f-677d-4a8d-853e-aaddef80fde2","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:40:52.5412093+08:00","Properties":{}}
+DEBUG 2019-06-28 17:40:52,553 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 56609a5f-677d-4a8d-853e-aaddef80fde2
+DEBUG 2019-06-28 17:41:35,660 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 17:41:35,673 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 17:41:35,678 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:35,684 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 17:41:35,890 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:41:35,890 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:41:35,890 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:41:35,890 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 17:41:36,162 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 17:41:37,855 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 17:41:37,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 17:41:37,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 17:41:37,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 17:41:38,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 17:41:38,082 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 17:41:38,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 17:41:38,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 17:41:38,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 17:41:38,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 17:41:38,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 17:41:38,136 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 17:41:38,136 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 17:41:39,622 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 17:41:39,622 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 17:41:39,623 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 17:41:39,624 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 17:41:39,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 17:41:39,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 17:41:39,626 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+DEBUG 2019-06-28 17:41:48,053 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f9766f3d-2007-4849-9cbc-9342aa59e43d","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:41:48.0470452+08:00","Properties":{}}
+DEBUG 2019-06-28 17:41:48,087 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f9766f3d-2007-4849-9cbc-9342aa59e43d
+DEBUG 2019-06-28 17:41:57,960 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f9766f3d-2007-4849-9cbc-9342aa59e43d
+DEBUG 2019-06-28 17:41:58,882 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9a8954b3-cd4d-4510-9573-59f53a5256e3","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:41:58.8795167+08:00","Properties":{}}
+DEBUG 2019-06-28 17:41:58,888 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9a8954b3-cd4d-4510-9573-59f53a5256e3
+DEBUG 2019-06-28 17:42:02,944 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9a8954b3-cd4d-4510-9573-59f53a5256e3
+DEBUG 2019-06-28 17:42:03,879 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7d25b3fe-7ba5-4cb6-bd49-44fc13881278","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:42:03.8778262+08:00","Properties":{}}
+DEBUG 2019-06-28 17:42:03,885 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7d25b3fe-7ba5-4cb6-bd49-44fc13881278
+DEBUG 2019-06-28 17:45:01,363 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7d25b3fe-7ba5-4cb6-bd49-44fc13881278
+DEBUG 2019-06-28 17:45:01,960 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"16ae086e-9a6e-4b8c-97d1-586019d208d1","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:45:01.9589742+08:00","Properties":{}}
+DEBUG 2019-06-28 17:45:01,966 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 16ae086e-9a6e-4b8c-97d1-586019d208d1
+WARN  2019-06-28 17:45:10,842 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:45:10,901 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 16ae086e-9a6e-4b8c-97d1-586019d208d1
+DEBUG 2019-06-28 17:45:11,622 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"386f0088-212f-44ef-9d40-c8573705d2bb","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:45:11.6192042+08:00","Properties":{}}
+DEBUG 2019-06-28 17:45:11,628 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 386f0088-212f-44ef-9d40-c8573705d2bb
+WARN  2019-06-28 17:46:47,940 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:46:48,006 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 386f0088-212f-44ef-9d40-c8573705d2bb
+DEBUG 2019-06-28 17:46:48,959 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f77aff21-8907-463c-8e1e-8e561c76260e","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:46:48.9540634+08:00","Properties":{}}
+DEBUG 2019-06-28 17:46:48,964 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f77aff21-8907-463c-8e1e-8e561c76260e
+WARN  2019-06-28 17:46:58,327 [51   ] nHandling.AbpApiExceptionFilterAttribute - Email 'aaa@aaa.com' is already taken.
+Abp.UI.UserFriendlyException: Email 'aaa@aaa.com' is already taken.
+   在 Abp.IdentityFramework.IdentityResultExtensions.CheckErrors(IdentityResult identityResult, ILocalizationManager localizationManager)
+   在 EquipmentSystem.Users.UserAppService.CheckErrors(IdentityResult identityResult) 位置 F:\Git\EquipmentSystem\EquipmentSystem\EquipmentSystem.Application\Users\UserAppService.cs:行号 131
+   在 Castle.Proxies.UserAppServiceProxy.CheckErrors_callback(IdentityResult identityResult)
+   在 Castle.Proxies.Invocations.UserAppService_CheckErrors.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.UserAppServiceProxy.CheckErrors(IdentityResult identityResult)
+   在 EquipmentSystem.Users.UserAppService.<Create>d__5.MoveNext() 位置 F:\Git\EquipmentSystem\EquipmentSystem\EquipmentSystem.Application\Users\UserAppService.cs:行号 65
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+WARN  2019-06-28 17:47:03,246 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:47:03,317 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f77aff21-8907-463c-8e1e-8e561c76260e
+DEBUG 2019-06-28 17:47:04,185 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"06efefdf-6fd1-4b5f-a1d5-d65b393fba88","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:47:04.1822985+08:00","Properties":{}}
+DEBUG 2019-06-28 17:47:04,192 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 06efefdf-6fd1-4b5f-a1d5-d65b393fba88
+WARN  2019-06-28 17:47:12,258 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:47:12,319 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 06efefdf-6fd1-4b5f-a1d5-d65b393fba88
+DEBUG 2019-06-28 17:47:13,179 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7892be3c-d88d-46aa-8596-a81528a6daee","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:47:13.1764423+08:00","Properties":{}}
+DEBUG 2019-06-28 17:47:13,185 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7892be3c-d88d-46aa-8596-a81528a6daee
+WARN  2019-06-28 17:47:23,530 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:47:23,601 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7892be3c-d88d-46aa-8596-a81528a6daee
+DEBUG 2019-06-28 17:47:24,532 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4eefcc0f-00d7-4be1-a8e4-1c4ccc3274da","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:47:24.5290543+08:00","Properties":{}}
+DEBUG 2019-06-28 17:47:24,536 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4eefcc0f-00d7-4be1-a8e4-1c4ccc3274da
+WARN  2019-06-28 17:47:32,337 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:47:32,400 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4eefcc0f-00d7-4be1-a8e4-1c4ccc3274da
+DEBUG 2019-06-28 17:47:33,100 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f0899a9f-5a88-4d50-a943-c439cc5ca6dd","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:47:33.0969232+08:00","Properties":{}}
+DEBUG 2019-06-28 17:47:33,106 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f0899a9f-5a88-4d50-a943-c439cc5ca6dd
+WARN  2019-06-28 17:47:41,536 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:47:41,612 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f0899a9f-5a88-4d50-a943-c439cc5ca6dd
+DEBUG 2019-06-28 17:47:42,691 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"74c9f4c5-ead2-456f-bcf3-f6365b03c433","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:47:42.6881878+08:00","Properties":{}}
+DEBUG 2019-06-28 17:47:42,697 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 74c9f4c5-ead2-456f-bcf3-f6365b03c433
+WARN  2019-06-28 17:47:53,839 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 17:47:53,917 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 74c9f4c5-ead2-456f-bcf3-f6365b03c433
+DEBUG 2019-06-28 17:47:54,794 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0e48995f-883a-4d66-972f-fce67b5876be","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T17:47:54.7900578+08:00","Properties":{}}
+DEBUG 2019-06-28 17:47:54,799 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0e48995f-883a-4d66-972f-fce67b5876be
+DEBUG 2019-06-28 18:47:03,123 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 18:47:03,512 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 18:47:03,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:03,523 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 18:47:04,053 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:47:04,053 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:47:04,053 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:47:04,053 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:47:04,456 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:47:05,244 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 18:47:05,310 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 18:47:05,349 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 18:47:05,382 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 18:47:05,406 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 18:47:05,469 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 18:47:05,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 18:47:05,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 18:47:05,519 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 18:47:05,519 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 18:47:05,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 18:47:05,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 18:47:05,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 18:47:07,015 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 18:47:07,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 18:47:07,017 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 18:47:07,018 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 18:47:07,018 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 18:47:07,019 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 18:47:07,020 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+WARN  2019-06-28 18:47:13,613 [12   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__15.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__18.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__16.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2019-06-28 18:47:25,226 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"26ee5793-9c1b-40cd-bf3c-07a5b4297e91","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T18:47:25.2171219+08:00","Properties":{}}
+DEBUG 2019-06-28 18:47:25,261 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 26ee5793-9c1b-40cd-bf3c-07a5b4297e91
+WARN  2019-06-28 18:47:30,993 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'EquipmentNumber' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:47:30,994 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'EquipmentName' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:47:30,994 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'ProductionDateTime' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:47:30,995 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'BuyDateTime' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:47:30,995 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Status' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:47:30,996 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Image' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:47:30,996 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'EquipmentType' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 18:49:45,952 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-28 18:49:45,964 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-06-28 18:49:45,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Web.EquipmentSystemWebModule, EquipmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemDataModule, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemCoreModule, EquipmentSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.EquipmentSystemApplicationModule, EquipmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EquipmentSystem.Api.EquipmentSystemWebApiModule, EquipmentSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:45,976 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-06-28 18:49:46,179 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:49:46,179 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:49:46,179 [1    ] o.Configuration.LanguageManagementConfig - Converted EquipmentSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:49:46,179 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-28 18:49:46,451 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: EquipmentSystem.EntityFramework.EquipmentSystemDbContext, EquipmentSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-28 18:49:48,175 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-28 18:49:48,237 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-28 18:49:48,275 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-28 18:49:48,301 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EquipmentSystem
+DEBUG 2019-06-28 18:49:48,326 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-28 18:49:48,390 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-28 18:49:48,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-06-28 18:49:48,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-28 18:49:48,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-28 18:49:48,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.CreateUserDto
+DEBUG 2019-06-28 18:49:48,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UpdateUserDto
+DEBUG 2019-06-28 18:49:48,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Users.Dto.UserDto
+DEBUG 2019-06-28 18:49:48,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-28 18:49:48,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.PermissionDto
+DEBUG 2019-06-28 18:49:48,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Roles.Dto.RoleDto
+DEBUG 2019-06-28 18:49:48,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-28 18:49:48,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-06-28 18:49:48,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-28 18:49:48,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto
+DEBUG 2019-06-28 18:49:48,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-06-28 18:49:48,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EquipmentSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-06-28 18:49:49,911 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-06-28 18:49:49,912 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-06-28 18:49:49,913 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-06-28 18:49:49,914 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-06-28 18:49:49,914 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-06-28 18:49:49,915 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2019-06-28 18:49:49,916 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'EquipmentSystem.DeviceManager.IT_EquipmentAppService' with service name 'app/t_Equipment'.
+DEBUG 2019-06-28 18:49:58,640 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1ba6ae06-34e8-4414-8a85-b5d3ff722b6d","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T18:49:58.6331803+08:00","Properties":{}}
+DEBUG 2019-06-28 18:49:58,673 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1ba6ae06-34e8-4414-8a85-b5d3ff722b6d
+WARN  2019-06-28 18:50:20,090 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'EquipmentNumber' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:50:20,091 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'EquipmentName' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:50:20,092 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ProductionDateTime' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:50:20,092 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'BuyDateTime' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:50:20,093 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Status' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:50:20,093 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Image' in localization source 'EquipmentSystem'!
+WARN  2019-06-28 18:50:20,094 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'EquipmentType' in localization source 'EquipmentSystem'!
+DEBUG 2019-06-28 18:50:20,170 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1ba6ae06-34e8-4414-8a85-b5d3ff722b6d
+DEBUG 2019-06-28 18:50:20,904 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f4ce111a-5c55-4e61-8ffd-fafe7b5dd181","IpAddress":"192.168.20.128","TenantId":null,"UserId":1,"ConnectTime":"2019-06-28T18:50:20.9015215+08:00","Properties":{}}
+DEBUG 2019-06-28 18:50:20,912 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f4ce111a-5c55-4e61-8ffd-fafe7b5dd181
+DEBUG 2019-06-28 18:52:25,602 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f4ce111a-5c55-4e61-8ffd-fafe7b5dd181

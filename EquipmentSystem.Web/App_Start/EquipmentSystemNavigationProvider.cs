@@ -1,6 +1,8 @@
-﻿using Abp.Application.Navigation;
+﻿using System.Diagnostics;
+using Abp.Application.Navigation;
 using Abp.Localization;
 using EquipmentSystem.Authorization;
+using EquipmentSystem.DeviceManager.Authorization;
 
 namespace EquipmentSystem.Web
 {
@@ -14,6 +16,16 @@ namespace EquipmentSystem.Web
     {
         public override void SetNavigation(INavigationProviderContext context)
         {
+
+            var equipment = new MenuItemDefinition(
+                EquipmentAppPermissions.Equipment,
+                L("Equipment"),
+                url: "Equipment",
+                icon: "business",
+                requiredPermissionName: EquipmentAppPermissions.Equipment
+                );
+
+
             context.Manager.MainMenu
                 .AddItem(
                     new MenuItemDefinition(
@@ -48,6 +60,7 @@ namespace EquipmentSystem.Web
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
                 )
+                .AddItem(equipment)
                 .AddItem(
                     new MenuItemDefinition(
                         PageNames.About,

@@ -7,6 +7,7 @@ using Abp.Domain.Repositories;
 using Abp.Modules;
 using EquipmentSystem.Authorization.Roles;
 using EquipmentSystem.Authorization.Users;
+using EquipmentSystem.DeviceManager.Authorization;
 using EquipmentSystem.Roles.Dto;
 using EquipmentSystem.Users.Dto;
 
@@ -22,6 +23,10 @@ namespace EquipmentSystem
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+
+
+            Configuration.Authorization.Providers.Add<EquipmentAppAuthorizationProvider>();
+
 
             // TODO: Is there somewhere else to store these, with the dto classes
             Configuration.Modules.AbpAutoMapper().Configurators.Add(cfg =>

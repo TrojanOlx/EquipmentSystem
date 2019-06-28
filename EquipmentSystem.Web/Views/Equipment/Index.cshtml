@@ -1,7 +1,71 @@
-﻿
+﻿@using Abp.Web.Mvc.Extensions
+@model Abp.Application.Services.Dto.PagedResultDto<EquipmentSystem.DeviceManager.Dto.T_EquipmentListDto>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = L("Equipment");
+    ViewBag.ActiveMenu = "Equipment.Equipment";
 }
 
-<h2>Index</h2>
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    @L("Equipment")
+                </h2>
+                <ul class="header-dropdown m-r--5">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a id="RefreshButton" href="javascript:void(0);" class="waves-effect waves-block"><i class="material-icons">refresh</i>Refresh</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="body table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>@L("EquipmentNumber")</th>
+                            <th>@L("EquipmentName")</th>
+                            <th>@L("ProductionDateTime")</th>
+                            <th>@L("BuyDateTime")</th>
+                            <th>@L("Status")</th>
+                            <th>@L("Image")</th>
+                            <th>@L("EquipmentType")</th>
+                            <th>@L("Actions")</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Items)
+                        {
+                        <tr>
+                            <td>@item.EquipmentNumber</td>
+                            <td>@item.EquipmentName</td>
+                            <td>@item.ProductionDateTime</td>
+                            <td>@item.BuyDateTime</td>
+                            <td>@item.Status</td>
+                            <td>@item.Image</td>
+                            <td>@item.T_EquipmentType.TypeName</td>
+                            <td class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">menu</i>
+                                </a>
+                                <ul class="dropdown-menu pull-right">
+                                    <li><a href="#" class="waves-effect waves-block edit-user" data-user-id="@item.Id" data-toggle="modal" data-target="#UserEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                    <li><a href="#" class="waves-effect waves-block delete-user" data-user-id="@item.Id" data-user-name="@item.EquipmentName"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#UserCreateModal">
+                    <i class="material-icons">add</i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
