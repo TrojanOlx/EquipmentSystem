@@ -57,6 +57,15 @@
     <text name="Optional" value="可选的" />
 
     <text name="Equipment" value="设备" />
+    <text name="EquipmentList" value="设备列表" />
+    <text name="EquipmentNumber" value="设备编号" />
+    <text name="EquipmentName" value="设备名称" />
+    <text name="ProductionDateTime" value="生产日期" />
+    <text name="BuyDateTime" value="购买日期" />
+    <text name="Status" value="状态" />
+    <text name="Image" value="图片" />
+    <text name="EquipmentType" value="设备类型" />
+    <text name="Actions" value="操作" />
 
   </texts>
 </localizationDictionary>

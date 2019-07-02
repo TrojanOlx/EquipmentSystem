@@ -223,8 +223,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EquipmentType\Dto\CreateOrUpdateEquipmentTypeInput.cs" />
     <Compile Include="DeviceManager\Dto\GetT_EquipmentInput.cs" />
+    <Compile Include="EquipmentType\Dto\GetT_EquipmentTypeForEditOutput.cs" />
+    <Compile Include="EquipmentType\Dto\GetT_EquipmentTypeInput.cs" />
     <Compile Include="DeviceManager\Dto\T_EquipmentListDto.cs" />
+    <Compile Include="EquipmentType\Dto\T_EquipmentTypeForEditOutputDto.cs" />
+    <Compile Include="EquipmentType\Dto\T_EquipmentTypeListDto.cs" />
+    <Compile Include="EquipmentType\IT_EquipmentTypeAppService.cs" />
+    <Compile Include="EquipmentType\T_EquipmentTypeAppService.cs" />
     <Compile Include="DeviceManager\IT_EquipmentAppService.cs" />
     <Compile Include="DeviceManager\T_EquipmentAppService.cs" />
     <Compile Include="Dto\PagedAndSortedInputDto.cs" />

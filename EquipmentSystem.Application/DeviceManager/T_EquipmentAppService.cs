@@ -6,14 +6,17 @@ using System.Linq.Dynamic;
 using System.Text;
 using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
+using Abp.Authorization;
 using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
+using EquipmentSystem.DeviceManager.Authorization;
 using EquipmentSystem.DeviceManager.Dto;
 using EquipmentSystem.DeviceManager.EquipmentService;
 
 namespace EquipmentSystem.DeviceManager
 {
+    
     public class T_EquipmentAppService: EquipmentSystemAppServiceBase, IT_EquipmentAppService
     {
         private readonly IRepository<T_Equipment, int> _repository;

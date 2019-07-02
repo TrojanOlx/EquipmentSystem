@@ -19,10 +19,16 @@ namespace EquipmentSystem.Web
 
             var equipment = new MenuItemDefinition(
                 EquipmentAppPermissions.Equipment,
-                L("Equipment"),
+                L("EquipmentList"),
                 url: "Equipment",
-                icon: "business",
                 requiredPermissionName: EquipmentAppPermissions.Equipment
+                );
+
+            var quipmentType=new MenuItemDefinition(
+                    name: EquipmentAppPermissions.EquipmentType,
+                    L("EquipmentType"),
+                    url: "EquipmentType",
+                    requiredPermissionName: EquipmentAppPermissions.EquipmentType
                 );
 
 
@@ -60,8 +66,14 @@ namespace EquipmentSystem.Web
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
                 )
-                .AddItem(equipment)
-                .AddItem(
+                .AddItem(new MenuItemDefinition(
+                    EquipmentAppPermissions.Equipment,
+                    L("Equipment"),
+                    icon: "business",
+                    requiredPermissionName: EquipmentAppPermissions.Equipment
+                    ).AddItem(equipment)
+                    .AddItem(quipmentType)
+                ).AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
                         L("About"),
