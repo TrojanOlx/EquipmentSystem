@@ -24,7 +24,7 @@ namespace EquipmentSystem.Web
                 requiredPermissionName: EquipmentAppPermissions.Equipment
                 );
 
-            var quipmentType=new MenuItemDefinition(
+            var equipmentType=new MenuItemDefinition(
                     name: EquipmentAppPermissions.EquipmentType,
                     L("EquipmentType"),
                     url: "EquipmentType",
@@ -72,7 +72,7 @@ namespace EquipmentSystem.Web
                     icon: "business",
                     requiredPermissionName: EquipmentAppPermissions.Equipment
                     ).AddItem(equipment)
-                    .AddItem(quipmentType)
+                    .AddItem(equipmentType)
                 ).AddItem(
                     new MenuItemDefinition(
                         PageNames.About,

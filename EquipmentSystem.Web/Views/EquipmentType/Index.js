@@ -26,3 +26,25 @@
             _$modal.find("input:not([type=hidden]):first").focus();
         });
 })();
+
+function editEquipmentType(id) {
+    _service.getEquipmentTypeForEditOutputAsync({ id: id }).done(
+        function (data) {
+            data = data.result;
+            $("input[name=TypeName]").val(data.equipmentTypeForEditOutput.typeName);
+            $("input[name=Id]").val(data.equipmentTypeForEditOutput.id);
+        }
+    );
+}
+
+function deleteEquipmentType(id,typeName) {
+    abp.message.confirm(
+        "是否删除" + typeName + "?",
+        function() {
+            _service.deleteEquipmentTypeAsync({ id: id }).done(
+                function () {
+                    location.reload(true);
+            });
+        }
+    );
+}

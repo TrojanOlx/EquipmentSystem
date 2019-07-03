@@ -22,8 +22,6 @@ namespace EquipmentSystem.EquipmentType
         /// <returns></returns>
         ValueTask<IEnumerable<T_EquipmentTypeListDto>> GetEquipmentTypeAllAsync();
 
-        ValueTask GetEquipmentTypeForEditOutput1Async(CreateOrUpdateEquipmentTypeInput input);
-
         /// <summary>
         /// 通过ID对设备类型进行进行编辑或修改 
         /// </summary>
@@ -59,12 +57,12 @@ namespace EquipmentSystem.EquipmentType
         /// <summary>
         /// 删除设备
         /// </summary>
-        Task DeleteEquipmentTypeAsync(EntityDto input);
+        ValueTask DeleteEquipmentTypeAsync(EntityDto input);
 
         /// <summary>
         /// 批量删除设备
         /// </summary>
-        Task BatchDeleteEquipmentTypeAsync(IEnumerable<int> input);
+        ValueTask BatchDeleteEquipmentTypeAsync(IEnumerable<int> input);
 
     }
 }

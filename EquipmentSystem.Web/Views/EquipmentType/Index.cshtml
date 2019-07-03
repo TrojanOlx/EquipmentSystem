@@ -46,8 +46,8 @@
                                     <i class="material-icons">menu</i>
                                 </a>
                                 <ul class="dropdown-menu pull-right">
-                                    <li><a href="#" class="waves-effect waves-block edit-user" data-user-id="@item.Id" data-toggle="modal" data-target="#UserEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                    <li><a href="#" class="waves-effect waves-block delete-user" data-user-id="@item.Id" data-user-name="@item.TypeName"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                    <li><a href="#" class="waves-effect waves-block "  data-toggle="modal" data-target="#EquipmentTypeCreateModal" onclick="editEquipmentType(@item.Id)"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                    <li><a href="#" class="waves-effect waves-block "  onclick="deleteEquipmentType(@item.Id,@item.TypeName)"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                 </ul>
                             </td>
                         </tr>
@@ -71,9 +71,10 @@
             </div>
             <div class="modal-body">
                 <form name="userCreateForm" role="form" novalidate class="form-validation">
+                    <input type="hidden" name="Id"/>
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane animated fadeIn active" id="create-user-details">
-                            <div class="row clearfix" style="margin-top:10px;">
+                            <div class="row clearfix" style="margin-top: 10px;">
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
                                         <div class="form-line">

@@ -56,17 +56,6 @@ namespace EquipmentSystem.EquipmentType
             return typesDto;
         }
 
-
-        public async ValueTask GetEquipmentTypeForEditOutput1Async(CreateOrUpdateEquipmentTypeInput input)
-        {
-            var query = _repository.GetAll();
-            var count = await query.CountAsync();
-            var types = await query.ToListAsync();
-            var typesDto = types.MapTo<List<T_EquipmentTypeListDto>>();
-            
-        }
-
-
         public async ValueTask<GetT_EquipmentTypeForEditOutput> GetEquipmentTypeForEditOutputAsync(NullableIdDto<int> input)
         {
             var output = new GetT_EquipmentTypeForEditOutput();
@@ -74,7 +63,7 @@ namespace EquipmentSystem.EquipmentType
 
             if (input.Id.HasValue)
             {
-                var entity = await _repository.GetAsync(input.Id.Value);
+                var entity = _repository.Get(input.Id.Value);
                 quipmentTypeForEditOutputDto = entity.MapTo<T_EquipmentTypeForEditOutputDto>();
             }
             else
@@ -109,18 +98,8 @@ namespace EquipmentSystem.EquipmentType
         [AbpAuthorize(EquipmentAppPermissions.EquipmentType_CreateEquipmentType)]
         public async Task<T_EquipmentTypeForEditOutputDto> CreateEquipmentTypeAsync(T_EquipmentTypeForEditOutputDto input)
         {
-            try
-            {
-                var entity = await _repository.InsertAsync(input.MapTo<T_EquipmentType>());
-                return entity.MapTo<T_EquipmentTypeForEditOutputDto>();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-            //var entity = await _repository.InsertAsync(input.MapTo<T_EquipmentType>());
-            //return entity.MapTo<T_EquipmentTypeForEditOutputDto>();
+            var entity = await _repository.InsertAsync(input.MapTo<T_EquipmentType>());
+            return entity.MapTo<T_EquipmentTypeForEditOutputDto>();
         }
 
         [AbpAuthorize(EquipmentAppPermissions.EquipmentType_UpdateEquipmentType)]
@@ -135,7 +114,7 @@ namespace EquipmentSystem.EquipmentType
         }
 
         [AbpAuthorize(EquipmentAppPermissions.EquipmentType_DeleteEquipmentType)]
-        public async Task DeleteEquipmentTypeAsync(EntityDto input)
+        public async ValueTask DeleteEquipmentTypeAsync(EntityDto input)
         {
             var entity = await _repository.GetAsync(input.Id);
             if (entity == null)
@@ -146,7 +125,7 @@ namespace EquipmentSystem.EquipmentType
         }
 
         [AbpAuthorize(EquipmentAppPermissions.EquipmentType_DeleteEquipmentType)]
-        public async Task BatchDeleteEquipmentTypeAsync(IEnumerable<int> input)
+        public async ValueTask BatchDeleteEquipmentTypeAsync(IEnumerable<int> input)
         {
             await _repository.DeleteAsync(x => input.Contains(x.Id));
         }
