@@ -223,6 +223,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeviceManager\Dto\CreateOrUpdateT_EquipmenDto.cs" />
+    <Compile Include="DeviceManager\Dto\T_EquipmentEditDto.cs" />
     <Compile Include="EquipmentType\Dto\CreateOrUpdateEquipmentTypeInput.cs" />
     <Compile Include="DeviceManager\Dto\GetT_EquipmentInput.cs" />
     <Compile Include="EquipmentType\Dto\GetT_EquipmentTypeForEditOutput.cs" />
