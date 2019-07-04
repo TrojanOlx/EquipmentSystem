@@ -58,15 +58,15 @@
                                         <i class="material-icons">menu</i>
                                     </a>
                                     <ul class="dropdown-menu pull-right">
-                                        <li><a href="#" class="waves-effect waves-block edit-user" data-user-id="@item.Id" data-toggle="modal" data-target="#UserEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                        <li><a href="#" class="waves-effect waves-block delete-user" data-user-id="@item.Id" data-user-name="@item.EquipmentName"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block "  data-toggle="modal" data-target="#EquipmentEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block "  data-Equipment-name="@item.EquipmentName"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
                             </tr>
                         }
                     </tbody>
                 </table>
-                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#UserCreateModal">
+                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#EquipmentCreateModal">
                     <i class="material-icons">add</i>
                 </button>
             </div>
@@ -74,18 +74,18 @@
     </div>
 </div>
 
-<div class="modal fade" id="UserCreateModal" tabindex="-1" role="dialog" aria-labelledby="UserCreateModalLabel" data-backdrop="static">
+<div class="modal fade" id="EquipmentCreateModal" tabindex="-1" role="dialog" aria-labelledby="EquipmentCreateModalLabel" data-backdrop="static">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title">
-                    <span>@L("CreateNewUser")</span>
+                    <span>@L("CreateNewEquipment")</span>
                 </h4>
             </div>
             <div class="modal-body">
-                <form name="userCreateForm" role="form" novalidate class="form-validation">
+                <form name="EquipmentCreateForm" role="form" novalidate class="form-validation">
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane animated fadeIn active" id="create-user-details">
+                        <div role="tabpanel" class="tab-pane animated fadeIn active" id="create-Equipment-details">
                             <div class="row clearfix" style="margin-top:10px;">
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
@@ -172,7 +172,7 @@
                                 <div class="col-sm-12">
                                     <div class="checkbox">
                                         <input type="checkbox" name="IsActive" value="true" id="CreateUserIsActive" class="filled-in" checked />
-                                        <label for="CreateUserIsActive">@L("IsActive")</label>
+                                        <label for="CreateEquipmentIsActive">@L("IsActive")</label>
                                     </div>
                                 </div>
                             </div>
@@ -188,7 +188,7 @@
     </div>
 </div>
 
-<div class="modal fade" id="UserEditModal" tabindex="-1" role="dialog" aria-labelledby="UserEditModalLabel" data-backdrop="static">
+<div class="modal fade" id="EquipmentEditModal" tabindex="-1" role="dialog" aria-labelledby="EquipmentEditModalLabel" data-backdrop="static">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
 

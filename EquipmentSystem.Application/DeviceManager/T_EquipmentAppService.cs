@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
 using System.Linq.Dynamic;
-using System.Text;
 using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
-using Abp.Authorization;
 using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
-using EquipmentSystem.DeviceManager.Authorization;
 using EquipmentSystem.DeviceManager.Dto;
 using EquipmentSystem.DeviceManager.EquipmentService;
 
@@ -46,6 +41,31 @@ namespace EquipmentSystem.DeviceManager
         {
             var entity = await _repository.GetAsync(input.Id);
             return entity.MapTo<T_EquipmentListDto>();
+        }
+
+        public ValueTask CreateOrUpdateEquipmenAsync(CreateOrUpdateT_EquipmenDto input)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public ValueTask<T_EquipmentEditDto> CreateEquipmentAsync(T_EquipmentEditDto input)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task UpdateEquipmentAsync(T_EquipmentEditDto input)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public ValueTask DeleteEquipmentAsync(EntityDto input)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task BatchDeleteEquipmentAsync(EntityDto input)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
