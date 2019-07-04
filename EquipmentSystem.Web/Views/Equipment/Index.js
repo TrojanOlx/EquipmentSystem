@@ -11,9 +11,10 @@
             return;
         }
 
-        var equipmentForEditOutputDto = _$form.serializeFormToObject();
+        var equipmentEditDto = _$form.serializeFormToObject();
+        console.log(equipmentEditDto);
         abp.ui.setBusy(_$modal);
-        _service.createOrUpdateEquipmentTypeAsync({ equipmentTypeForEditOutputDto }).done(function () {
+        _service.createOrUpdateEquipmentAsync({ equipmentEditDto }).done(function () {
             _$modal.modal("hide");
             location.reload(true);
         }).always(function () {

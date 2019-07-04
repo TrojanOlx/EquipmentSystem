@@ -43,7 +43,7 @@ namespace EquipmentSystem.DeviceManager
             return entity.MapTo<T_EquipmentListDto>();
         }
 
-        public ValueTask CreateOrUpdateEquipmenAsync(CreateOrUpdateT_EquipmenDto input)
+        public ValueTask CreateOrUpdateEquipmentAsync(CreateOrUpdateT_EquipmenDto input)
         {
             throw new System.NotImplementedException();
         }

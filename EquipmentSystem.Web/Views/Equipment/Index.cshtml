@@ -58,8 +58,8 @@
                                         <i class="material-icons">menu</i>
                                     </a>
                                     <ul class="dropdown-menu pull-right">
-                                        <li><a href="#" class="waves-effect waves-block "  data-toggle="modal" data-target="#EquipmentEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                        <li><a href="#" class="waves-effect waves-block "  data-Equipment-name="@item.EquipmentName"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block " data-toggle="modal" data-target="#EquipmentEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block " data-Equipment-name="@item.EquipmentName"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -110,7 +110,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <select class="form-control" name="T_EquipmentType">
+                                            <select class="form-control" name="T_EquipmentTypeID">
                                                 @if (ViewBag.EquipmentTypesList != null)
                                                 {
                                                     foreach (var item in ViewBag.EquipmentTypesList)
@@ -131,7 +131,7 @@
                                                 {
                                                     foreach (var item in ViewBag.EquipmentStatusList)
                                                     {
-                                                        <option value="@item.Item1">@L(@item.Item2)</option>
+                                                        <option value="@item.Value">@L(@item.Name)</option>
                                                     }
                                                 }
                                             </select>
@@ -158,16 +158,16 @@
                                     </div>
                                 </div>
                             </div>
-                            @*<div class="row clearfix">
-                                    <div class="col-sm-12">
-                                        <div class="form-group form-float">
-                                            <div class="form-line">
-                                                <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" required maxlength="@AbpUserBase.MaxPlainPasswordLength">
-                                                <label class="form-label">@L("ConfirmPassword")</label>
-                                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" required maxlength="@AbpUserBase.MaxPlainPasswordLength">
+                                            <label class="form-label">@L("ConfirmPassword")</label>
                                         </div>
                                     </div>
-                                </div>*@
+                                </div>
+                            </div>
                             <div class="row clearfix">
                                 <div class="col-sm-12">
                                     <div class="checkbox">

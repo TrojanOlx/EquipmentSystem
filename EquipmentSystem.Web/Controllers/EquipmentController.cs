@@ -38,15 +38,15 @@ namespace EquipmentSystem.Web.Controllers
 
 
             //设备状态
-            //var equipmentStatus = Enum.GetValues(typeof(EquipmentStatus)).Cast<EquipmentStatus>().Select(item => new 
-            //{
-            //    Value = (int)item,
-            //    Name = item.ToString()
-            //});
+            var equipmentStatus = Enum.GetValues(typeof(EquipmentStatus)).Cast<EquipmentStatus>().Select(item => new EnumModel()
+            {
+                Value = (int)item,
+                Name = item.ToString()
+            });
 
 
-            var equipmentStatus = Enum.GetValues(typeof(EquipmentStatus)).Cast<EquipmentStatus>()
-                .Select(item => new Tuple<int, string>((int)item, item.ToString()));
+            //var equipmentStatus = Enum.GetValues(typeof(EquipmentStatus)).Cast<EquipmentStatus>()
+            //    .Select(item => new Tuple<int, string>((int)item, item.ToString()));
 
 
             ViewBag.EquipmentStatusList = equipmentStatus;

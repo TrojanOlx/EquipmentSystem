@@ -32,7 +32,7 @@ namespace EquipmentSystem.DeviceManager
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        ValueTask CreateOrUpdateEquipmenAsync(CreateOrUpdateT_EquipmenDto input);
+        ValueTask CreateOrUpdateEquipmentAsync(CreateOrUpdateT_EquipmenDto input);
 
 
         /// <summary>
