@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!-- release v4.1.8, copyright 2014 - 2015 Kartik Visweswaran -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Krajee JQuery Plugins - &copy; Kartik</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-fileinput/css/fileinput.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/fileinput.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container kv-main">
+        <br>
+        <form enctype="multipart/form-data">
+
+            <div class="form-group">
+                <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-min-file-count="2">
+            </div>
+
+        </form>
+    </div>
+</body>
+<script>
+
+    $("#file-1").fileinput({
+        uploadUrl: '/FileUpload/UploadImage', // you must set a valid URL here else you will get an error
+        allowedFileExtensions: ['jpg', 'png', 'gif'],
+        overwriteInitial: false,
+        maxFileSize: 1000,
+        maxFilesNum: 10,
+        //allowedFileTypes: ['image', 'video', 'flash'],
+        slugCallback: function (filename) {
+            return filename.replace('(', '_').replace(']', '_');
+        }
+    });
+
+    $("#file-1").on('fileuploaded', function (event, data, previewId, index) {
+        console.log(data);
+        if(typeof(data.response.id) != 'undefined'){
+            id_str = id_str+data.response.id+',';
+        }
+    });
+
+</script>
+</html>

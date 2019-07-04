@@ -14,7 +14,7 @@ using EquipmentSystem.EquipmentType;
 
 namespace EquipmentSystem.Web.Controllers
 {
-    [AbpMvcAuthorize(EquipmentAppPermissions.Equipment)]
+    //[AbpMvcAuthorize(EquipmentAppPermissions.Equipment)]
     public class EquipmentController : Controller
     {
         private readonly IT_EquipmentAppService _equipmentAppService;
@@ -60,6 +60,12 @@ namespace EquipmentSystem.Web.Controllers
 
 
             return View(output);
+        }
+
+        public ActionResult Test()
+        {
+
+            return View();
         }
     }
 }
