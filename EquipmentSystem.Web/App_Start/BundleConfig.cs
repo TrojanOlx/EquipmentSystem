@@ -29,6 +29,7 @@ namespace EquipmentSystem.Web
                         "~/lib/json2/json2.js",
                         "~/lib/jquery/dist/jquery.js",
                         "~/lib/bootstrap/dist/js/bootstrap.js",
+                        "~/lib/bootstrap/dist/js/jquery-ui-1.12.1.js",
                         "~/lib/moment/min/moment-with-locales.js",
                         "~/lib/jquery-validation/dist/jquery.validate.js",
                         "~/lib/blockUI/jquery.blockUI.js",
@@ -96,6 +97,7 @@ namespace EquipmentSystem.Web
                         "~/js/admin.js",
                         "~/js/main.js",
                         "~/Scripts/jquery.signalR-2.3.0.js",
+                        "~/lib/bootstrap/dist/js/jquery-ui-1.12.1.js",
                         "~/Views/Shared/_Layout.js"
                     )
                 );

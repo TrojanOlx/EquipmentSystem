@@ -5,6 +5,10 @@
     ViewBag.Title = L("Equipment");
     ViewBag.ActiveMenu = "Equipment.Equipment";
 }
+@section scripts
+{
+    @Html.IncludeScript("~/Views/Equipment/Index.js")
+}
 
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -106,7 +110,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <select class="form-control" name="T_EquipmentType" title="@L("T_EquipmentType")">
+                                            <select class="form-control" name="T_EquipmentType">
                                                 @if (ViewBag.EquipmentTypesList != null)
                                                 {
                                                     foreach (var item in ViewBag.EquipmentTypesList)
@@ -115,13 +119,14 @@
                                                     }
                                                 }
                                             </select>
+                                            <label class="form-label" style="z-index: 3">@L("T_EquipmentType")</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <select class="form-control" name="Status" title="@L("Status")">
+                                            <select class="form-control" name="Status">
                                                 @if (ViewBag.EquipmentStatusList != null)
                                                 {
                                                     foreach (var item in ViewBag.EquipmentStatusList)
@@ -130,6 +135,7 @@
                                                     }
                                                 }
                                             </select>
+                                            <label class="form-label" style="z-index: 3">@L("Status")</label>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +144,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input type="text" name="ProductionDateTime" class="form-control" required maxlength="@AbpUserBase.MaxNameLength">
+                                            <input type="text" name="ProductionDateTime" class="form-control datepicker" required maxlength="@AbpUserBase.MaxNameLength">
                                             <label class="form-label">@L("ProductionDateTime")</label>
                                         </div>
                                     </div>
@@ -146,7 +152,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input type="text" name="BuyDateTime" class="form-control" required maxlength="@AbpUserBase.MaxSurnameLength">
+                                            <input type="text" name="BuyDateTime" class="form-control datepicker" required maxlength="@AbpUserBase.MaxSurnameLength">
                                             <label class="form-label">@L("BuyDateTime")</label>
                                         </div>
                                     </div>
@@ -189,3 +195,4 @@
         </div>
     </div>
 </div>
+

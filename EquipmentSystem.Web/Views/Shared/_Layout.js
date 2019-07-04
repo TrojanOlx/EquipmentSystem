@@ -83,3 +83,6 @@ function activateNotificationAndTasksScroll() {
     });
 
 })(jQuery);
+
+// 时间选择插件
+//$("input[name=BuyDateTime]").datepicker();
