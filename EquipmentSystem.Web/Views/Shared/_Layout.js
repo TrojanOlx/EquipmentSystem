@@ -85,4 +85,10 @@ function activateNotificationAndTasksScroll() {
 })(jQuery);
 
 // 时间选择插件
-//$("input[name=BuyDateTime]").datepicker();
+$(".datepicker").datepicker({
+    changeMonth: true, //显示月份下拉框
+    changeYear: true, //显示年份下拉框
+    onSelect: function(dateText, inst) {
+        $(this).focus();
+    }
+});
