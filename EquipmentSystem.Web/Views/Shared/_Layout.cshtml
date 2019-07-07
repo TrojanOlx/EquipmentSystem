@@ -29,6 +29,8 @@
     @Styles.Render("~/Bundles/vendor/css")
 
     <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+
+    <link href="~/Content/bootstrap-fileinput/css/fileinput.css" rel="stylesheet" />
     <!-- View specific styles -->
     @RenderSection("styles", required: false)
 
@@ -152,7 +154,7 @@
     <script src="~/signalr/hubs"></script>
     @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.signalr.js")
 
-
+<script src="~/Scripts/fileinput.js"></script>
     <!-- View specific scripts -->
     @RenderSection("scripts", required: false)
 </body>

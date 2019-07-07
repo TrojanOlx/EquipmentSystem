@@ -160,10 +160,14 @@
                             </div>
                             <div class="row clearfix">
                                 <div class="col-sm-12">
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
+                                    <div class="form-group">
+                                        @*<div class="form-line">
                                             <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" required maxlength="@AbpUserBase.MaxPlainPasswordLength">
                                             <label class="form-label">@L("ConfirmPassword")</label>
+                                        </div>*@
+                                        
+                                        <div class="file-loading">
+                                            <input id="file-1" type="file" multiple class="file form-control" data-overwrite-initial="false" data-min-file-count="1">
                                         </div>
                                     </div>
                                 </div>
@@ -195,4 +199,5 @@
         </div>
     </div>
 </div>
+
 
